@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i&subset=latin-ext');
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 
@@ -747,30 +746,29 @@ body.royal_preloader {
   background-color: white;
 }
 .cbp-af-header.cbp-af-header-shrink .logo{
-	width:98px;
-	height:20px;
-	top:30px;
-	background:url('../images/logo.png') no-repeat center center;
-	background-size:98px 20px;
-	-webkit-transition : all 0.4s ease-out;
-	-moz-transition : all 0.4s ease-out;
-	-o-transition :all 0.4s ease-out;
-	transition : all 0.4s ease-out;
+    width: 112px;
+    height: 40px;
+    background: url('../images/logo.png') no-repeat center center;
+    background-size: 112px 40px;
+    -webkit-transition : all 0.4s ease-out;
+    -moz-transition : all 0.4s ease-out;
+    -o-transition : all 0.4s ease-out;
+    transition : all 0.4s ease-out;
 }
 
  
 .logo{
-	position:absolute;
-	width:137px;
-	height:28px;
-	z-index:10000;
-	top:46px;
-	background:url('../images/logo.png') no-repeat center center;
-	background-size:137px 28px;
-	-webkit-transition : all 0.4s ease-out;
-	-moz-transition : all 0.4s ease-out;
-	-o-transition :all 0.4s ease-out;
-	transition : all 0.4s ease-out;
+    position: absolute;
+    width: 223px;
+    height: 80px;
+    z-index: 10000;
+    top: 20px;
+    background: url('../images/logo.png') no-repeat center center;
+    background-size: 167px 60px;
+    -webkit-transition : all 0.4s ease-out;
+    -moz-transition : all 0.4s ease-out;
+    -o-transition : all 0.4s ease-out;
+    transition : all 0.4s ease-out;
 }
 
 
@@ -945,8 +943,8 @@ body.royal_preloader {
 	padding-top:240px;
 }
 .padding-top-bottom{
-	padding-top:100px;
-	padding-bottom:100px;
+    padding-bottom: 150px;
+    padding-top: 150px;
 }
 .padding-top{
 	padding-top:100px;
@@ -962,7 +960,7 @@ body.royal_preloader {
 	background-color:#121212;
 }
 .background-black{
-	background-color:#020202;
+    background-color: #020202;
 }
 
 .home-text-freelance h1{
@@ -1080,21 +1078,25 @@ body.royal_preloader {
 	display:block;
 }
 .title .list li {
-	position:relative;
-	padding-left:70px;
-	display:block;
-	font-family: 'Lato', sans-serif;
-	font-weight:700;
-	font-size: 12px;
-	letter-spacing:2px;
-	line-height:25px;
-	text-transform:uppercase;
-	color:#999;
-	margin-bottom:3px;
+    position: relative;
+    padding-left: 70px;
+    display: block;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: 2px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #999;
+    margin-bottom: 3px;
+    margin-left: -46px;
+    margin-top: 0px;
 }
 .title .list li strong{
 	font-weight:900;
 	color:#fff;
+}
+.list li strong {
 }
 .title .list li:before {
 	position:absolute;
@@ -3491,20 +3493,3 @@ Menu Mobile style's
 	float:right;
 }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
