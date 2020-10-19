@@ -20,7 +20,7 @@ a:focus,
 .comm-link,
 .sidebar-list-one li a:hover,
 .comment a{
-	color:#21d365;
+	color:cc3366;
 }
 #filter li a:before,
 .footer a:before,
@@ -35,32 +35,32 @@ a:focus,
 .sidebar-list-two li a:hover,
 #ajax-form button:hover,
 #cd-zoom-in, #cd-zoom-out {
-  background-color: #21d365;
+  background-color: #cc3366;
 }
 figure.vimeo a:before, figure.youtube a:before {
-	border-left: 10px solid #21d365;
+	border-left: 10px solid #cc3366;
 }
 figure.vimeo:hover a:after, figure.youtube:hover a:after {
-	background:#21d365;
+	background:#cc3366;
 }
 .post-wrapper blockquote{ 
-	border-left:3px solid #21d365;
+	border-left:3px solid #cc3366;
 }
 .sidebar-search input:active,
 .sidebar-search input:focus {	
-	border-bottom:1px solid #21d365;
+	border-bottom:1px solid #cc3366;
 }
 .sidebar-list-one li:before{ 
-	border:1px solid #21d365;
+	border:1px solid #cc3366;
 }
 .sidebar-list-two li a:hover{
-	border:2px solid #21d365;
+	border:2px solid #cc3366;
 }
 #ajax-form textarea:focus,
 #ajax-form input:focus,
 #ajax-form textarea:active,
 #ajax-form input:active {	
-	border-bottom:1px solid #21d365;
+	border-bottom:1px solid #cc3366;
 }
 
  
