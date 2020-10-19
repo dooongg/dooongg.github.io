@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i&subset=latin-ext');
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 
@@ -384,7 +383,7 @@ body.royal_preloader {
 }
 .no-touch .cd-nav-trigger:hover span::after,
 .no-touch .cd-nav-trigger:hover span::before {
-  /* animate arrow --> from hamburger to arrow */
+  /* animate arrow  from hamburger to arrow */
   width: 50%;
 }
 .no-touch .cd-nav-trigger:hover span::before {
@@ -637,7 +636,7 @@ main.scale-down {
 }
 @media only screen and (min-width: 700px) {
   .cd-section {
-    /* not 100vh to fix a small bug --> border visible otherwise */
+    /* not 100vh to fix a small bug  border visible otherwise */
     header: 102vh;
   }
 }
@@ -691,30 +690,30 @@ main.scale-down {
   background-color: white;
 }
 .cbp-af-header.cbp-af-header-shrink .logo{
-	width:98px;
-	height:20px;
-	top:30px;
-	background:url('../images/logo.png') no-repeat center center;
-	background-size:98px 20px;
-	-webkit-transition : all 0.4s ease-out;
-	-moz-transition : all 0.4s ease-out;
-	-o-transition :all 0.4s ease-out;
-	transition : all 0.4s ease-out;
+    width: 98px;
+    height: 35px;
+    top: 30px;
+    background: url('../images/logo.png') no-repeat center center;
+    background-size: 98px 35px;
+    -webkit-transition : all 0.4s ease-out;
+    -moz-transition : all 0.4s ease-out;
+    -o-transition : all 0.4s ease-out;
+    transition : all 0.4s ease-out;
 }
 
  
 .logo{
-	position:absolute;
-	width:137px;
-	height:28px;
-	z-index:10000;
-	top:46px;
-	background:url('../images/logo.png') no-repeat center center;
-	background-size:137px 28px;
-	-webkit-transition : all 0.4s ease-out;
-	-moz-transition : all 0.4s ease-out;
-	-o-transition :all 0.4s ease-out;
-	transition : all 0.4s ease-out;
+    position: absolute;
+    width: 167px;
+    height: 60px;
+    z-index: 10000;
+    top: 31px;
+    background: url('../images/logo.png') no-repeat center center;
+    background-size: 167px 60px;
+    -webkit-transition : all 0.4s ease-out;
+    -moz-transition : all 0.4s ease-out;
+    -o-transition : all 0.4s ease-out;
+    transition : all 0.4s ease-out;
 }
 
 
@@ -3068,20 +3067,3 @@ svg * {
 	float:right;
 }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
