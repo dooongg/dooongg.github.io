@@ -23,8 +23,6 @@
 	<link rel="stylesheet" href="css/skeleton.css"/>
 	<link rel="stylesheet" href="css/layout.css"/>
 	<link rel="stylesheet" href="css/font-awesome.css" />
-	<link rel="stylesheet" href="css/et-line.css"/>
-	<link rel="stylesheet" href="css/ionicons.min.css"/>
 	<link rel="stylesheet" href="css/retina.css"/>
 	
 
@@ -47,29 +45,57 @@
 	
 	<!-- MENU
     ================================================== -->	
+	
+	<div class="cd-nav-container" id="cd-nav">
+		<header>
+			<a href="#0" class="cd-close-nav">Close</a>
+		</header>
+
+		<div class="cd-nav">
+			<nav class="menu menu--mohe">
+				<a class="menu__item" href="index.html">
+					<span class="menu__item-name">Work</span>
+					<span class="menu__item-label">Explore the portfolio</span>	
+				</a>
+				<a class="menu__item" href="about.html">
+					<span class="menu__item-name">Studio</span>
+					<span class="menu__item-label">Read our mission statement</span>
+				</a>
+				<a class="menu__item" href="blog.html">
+					<span class="menu__item-name">Journal</span>
+					<span class="menu__item-label">Discover fascinating stories</span>
+				</a>
+				<a class="menu__item" href="contact.html">
+					<span class="menu__item-name">Hello</span>
+					<span class="menu__item-label">Get in touch and find us</span>
+				</a>
+			</nav>
+		</div>
+		
+		<ul class="nav-social">
+			<li>
+				<a class="twitter" href="#">Tw</a>
+			</li>
+			<li>
+				<a class="facebook" href="#">Fb</a>
+			</li>
+			<li>
+				<a class="google" href="#">G+</a>
+			</li>
+		</ul>
+
+	</div>
+
+	<div class="cd-overlay"><!-- shadow layer visible when navigation is visible --></div>	
 
 	<nav id="menu-wrap" class="menu-back cbp-af-header">
 		<div class="container">
 			<div class="twelve columns">
 				<div class="menu">
 					<a href="index.html" ><div class="logo"></div></a>
-					<ul>
-						<li> 
-							<a href="index.html">Top</a>
-						</li>
-						<li> 
-							<a href="index.html#about">Studio</a>
-						</li>		
-						<li> 
-							<a href="index.html#work">Work</a>
-						</li>	
-						<li> 
-							<a href="index.html#blog">Journal</a>
-						</li>
-						<li> 
-							<a href="index.html#contact">Contact</a>
-						</li>
-					</ul>
+					<a href="#cd-nav" class="cd-nav-trigger">
+						Menu<span><!-- used to create the menu icon --></span>
+					</a> <!-- .cd-nav-trigger -->
 				</div>
 			</div>
 		</div>
@@ -174,7 +200,7 @@
 		</div>
 	</div>
 	
-	<div class="section padding-top-bottom background-dark">
+	<div class="section padding-top-bottom background-black">
 		<div class="container">
 			<div class="six columns footer" data-scroll-reveal="enter bottom move 60px over 0.9s after 0.1s">
 				<p>Call us at <a href="#">+37 237 325 563</a><br>or say hello at <a href="#">people@namos.com</a></p>
@@ -210,7 +236,6 @@
 	<script type="text/javascript" src="js/retina-1.1.0.min.js"></script>
 	<script type="text/javascript" src="js/jquery.easing.js"></script>	
 	<script type="text/javascript" src="js/header-anime.js"></script>
-	<script type="text/javascript" src="js/malihu.js"></script> 
 	<script type="text/javascript" src="js/charming.min.js"></script>  
 	<script type="text/javascript" src="js/anime.min.js"></script>  
 	<script type="text/javascript" src="js/nav-anime.js"></script> 

@@ -67,11 +67,6 @@
 			return false;
 		})
 		
-		
-		//Parallax
-		
-		$('.parallax').parallax("50%", 0.3);
-		
 				
 		//Tooltip
 
@@ -121,7 +116,8 @@
 	
 		
 	});
-	
+
+
  
   })(jQuery); 
  

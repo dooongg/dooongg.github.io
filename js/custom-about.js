@@ -44,6 +44,24 @@
             'opacity': 1 - (windowScroll / 400)
         });
     });	
+
+	
+	/* animated icons */
+	
+	var options = {
+	  duration: 200, 
+	  type: 'oneByOne',
+	  animTimingFunction: Vivus.EASE
+	};
+
+	var vivus = new Vivus('svg-icon-1',	options, onComplete);
+				new Vivus('svg-icon-2',	options, onComplete);
+				new Vivus('svg-icon-3',	options, onComplete);
+				new Vivus('svg-icon-4',	options, onComplete);
+				new Vivus('svg-icon-5',	options, onComplete);
+				new Vivus('svg-icon-6',	options, onComplete);
+
+	function onComplete() {}
 	
 	
 	$(document).ready(function() {
@@ -71,11 +89,40 @@
 		//Parallax
 		
 		$('.parallax').parallax("50%", 0.3);
+		$('.parallax-1').parallax("50%", 0.3);
 		
 				
 		//Tooltip
 
 		$(".tipped").tipper();
+		
+
+		/* Logos Carousel */		
+		
+		$("#owl-logos").owlCarousel({
+			items : 5,
+			itemsDesktop : [1000,4], 
+			itemsDesktopSmall : [900,3],
+			itemsTablet: [600,2], 
+			itemsMobile : false, 
+			navigation: false,
+			pagination : false,
+			autoPlay : 3000,
+			slideSpeed : 300
+		});
+
+		
+		/* Quote Carousels */
+	 
+		$("#owl-sep-1").owlCarousel({
+			navigation: false,
+			pagination : true,
+			transitionStyle : "fade",
+			slideSpeed : 500,
+			paginationSpeed : 500,
+			singleItem:true,
+			autoPlay: 5000
+		});
 
 	
 		//Navigation	
@@ -121,7 +168,8 @@
 	
 		
 	});
-	
+
+
  
   })(jQuery); 
  

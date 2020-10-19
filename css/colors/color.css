@@ -19,9 +19,7 @@ a:focus,
 .num-of-com span,
 .comm-link,
 .sidebar-list-one li a:hover,
-.comment a,
-.menu > ul > li a:hover,
-.menu > ul > li a.mPS2id-highlight{
+.comment a{
 	color:#21d365;
 }
 #filter li a:before,
