@@ -1,24 +1,36 @@
 html,
 body {
-	box-sizing: border-box;
-	margin: 0;
-	height: 100%;
-	background: black;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	font-family: sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    height: 100%;
+    background: black;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    color: #2A2A2A;
+    /* [disabled]text-indent: -120px; */
+    width: 100%;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 8px;
 }
 
 .image-container {
-	display: flex;
-	height: 100%;
-	max-width: 100%;
-	position: relative;
-	-webkit-perspective: 1500px;
-	perspective: 1500px;
-	transform-style: preserve-3d;
-	transform: translate3d(0, 0, 0);	
+    height: 100%;
+    max-width: 100%;
+    position: relative;
+    -webkit-perspective: 1500px;
+    perspective: 1500px;
+    transform-style: preserve-3d;
+    transform: translate3d(0, 0, 0);
+    /* [disabled]margin-top: 57px; */
+    /* [disabled]margin-right: 57px; */
+    /* [disabled]margin-bottom: 57px; */
+    /* [disabled]margin-left: 57px; */
+    /* [disabled]float: left; */
 }
 .canvas {
 	width: auto;
