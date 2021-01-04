@@ -1,18 +1,9 @@
-/**
- * pieces.js
- * http://www.codrops.com
- *
- * Licensed under the MIT license.
- * http://www.opensource.org/licenses/mit-license.php
- * 
- * Copyright 2017, Codrops
- * http://www.codrops.com
- */
+
 {
 	// Helper vars and functions.
 	const is3DBuggy = navigator.userAgent.indexOf('Firefox') > 0;
 
-	// From https://davidwalsh.name/javascript-debounce-function.
+
 	function debounce(func, wait, immediate) {
 		var timeout;
 		return function() {
@@ -28,7 +19,7 @@
 		};
 	};
 
-	// from http://www.quirksmode.org/js/events_properties.html#position
+
 	const getMousePos = (e) => {
 		let posx = 0;
 		let posy = 0;

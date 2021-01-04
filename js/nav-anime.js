@@ -1,13 +1,4 @@
-/**
- * demo.js
- * http://www.codrops.com
- *
- * Licensed under the MIT license.
- * http://www.opensource.org/licenses/mit-license.php
- * 
- * Copyright 2017, Codrops
- * http://www.codrops.com
- */
+
 {
 	setTimeout(() => document.body.classList.add('render'), 60);
 	const navdemos = Array.from(document.querySelectorAll('nav.demos > .demo'));
@@ -38,17 +29,6 @@
 }
 
 
-
-/**
- * demo-mohe.js
- * http://www.codrops.com
- *
- * Licensed under the MIT license.
- * http://www.opensource.org/licenses/mit-license.php
- * 
- * Copyright 2017, Codrops
- * http://www.codrops.com
- */
 {
 	const items = Array.from(document.querySelectorAll('.menu > .menu__item'));
 

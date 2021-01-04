@@ -1,8 +1,4 @@
 
-/*! scrollReveal.js v0.1.3 (c) 2014 Julian Lloyd | MIT license */
-
-/*===========================================================================*/
-
 
 window.scrollReveal = (function (window) {
 
@@ -11,11 +7,7 @@ window.scrollReveal = (function (window) {
   // generator (increments) for the next scroll-reveal-id
   var nextId = 1;
 
-  /**
-   * RequestAnimationFrame polyfill
-   * @function
-   * @private
-   */
+
   var requestAnimFrame = (function () {
     return window.requestAnimationFrame ||
       window.webkitRequestAnimationFrame ||
