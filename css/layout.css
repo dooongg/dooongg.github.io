@@ -684,11 +684,11 @@ main.scale-down {
   background-color: white;
 }
 .cbp-af-header.cbp-af-header-shrink .logo{
-    width: 98px;
-    height: 35px;
-    top: 30px;
+    width: 120px;
+    height: 43px;
+    top: 16px;
     background: url('../images/logo.png') no-repeat center center;
-    background-size: 98px 35px;
+    background-size: 120px 43px;
     -webkit-transition : all 0.4s ease-out;
     -moz-transition : all 0.4s ease-out;
     -o-transition : all 0.4s ease-out;
@@ -702,14 +702,14 @@ main.scale-down {
     height: 60px;
     z-index: 10000;
     top: 31px;
-    background: url('../images/logo.png') no-repeat center center;
+    background: url('../images/logo0.png') no-repeat center center;
     background-size: 167px 60px;
     -webkit-transition : all 0.4s ease-out;
     -moz-transition : all 0.4s ease-out;
     -o-transition : all 0.4s ease-out;
     transition : all 0.4s ease-out;
 }
-
+ 
 
 .menu {
 	display:inline-block;
@@ -876,7 +876,7 @@ main.scale-down {
 	height:100vh;
 }
 .big-height{
-	height:70vh;
+	height:50vh;
 }
 .padding-top-from-nav{
 	padding-top:240px;
