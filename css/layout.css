@@ -882,8 +882,8 @@ main.scale-down {
 	padding-top:240px;
 }
 .padding-top-bottom{
-	padding-top:100px;
-	padding-bottom:100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 .padding-top{
 	padding-top:100px;
@@ -899,7 +899,8 @@ main.scale-down {
 	background-color:#121212;
 }
 .background-black{
-	background-color:#020202;
+    background-color: #020202;
+    margin-left: 0px;
 }
 
 .home-text-freelance h1{
@@ -1059,12 +1060,12 @@ main.scale-down {
     font-variant: normal;
 }
 .subtitle-small {
-	text-align:left;
-	font-family: 'Lato', sans-serif;
-	font-weight:300;
-	font-size: 22px;
-	line-height:32px;
-	color:#fff;
+    text-align: left;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 32px;
+    color: #fff;
 }
 .img-wrap img {
 	width:100%;

@@ -1,6 +1,11 @@
-
 	
-		.container                                  { position: relative; width: 1320px; margin: 0 auto; padding: 0; }
+		.container                                  {
+    position: relative;
+    width: 1320px;
+    margin: 0 auto;
+    padding: 0;
+    opacity: 1;
+}
 		.container .column,
 		.container .columns                         { float: left; display: inline; margin-left: 25px; margin-right: 25px; margin-top: 25px; margin-bottom: 25px;}
 		.row                                        { margin-bottom: 50px; }
