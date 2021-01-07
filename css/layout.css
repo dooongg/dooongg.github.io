@@ -1739,20 +1739,21 @@ svg * {
 }
 .project-nav-wrap .left-nav .text-on-hover,
 .project-nav-wrap .right-nav .text-on-hover {
-	position:absolute;
-	z-index:2;
-	width:100%;
-	opacity:0;
-	font-family: 'Lato', sans-serif;
-	font-weight:400;
-	font-size: 13px;
-	line-height:20px;
-	color:#fff;
+    position: absolute;
+    z-index: 2;
+    width: 212px;
+    opacity: 0;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: #fff;
     -webkit-transition: all 250ms linear;
     -moz-transition: all 250ms linear;
     -o-transition: all 250ms linear;
     -ms-transition: all 250ms linear;
     transition: all 250ms linear;
+    height: 20px;
 }
 .project-nav-wrap .left-nav .text-on-hover{
 	text-align:right;
