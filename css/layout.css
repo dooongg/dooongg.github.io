@@ -1024,7 +1024,7 @@ main.scale-down {
 }
 .title .list li {
 	position:relative;
-	padding-left:70px;
+	padding-left:25px;
 	display:block;
 	font-family: 'Lato', sans-serif;
 	font-weight:700;
@@ -1042,7 +1042,7 @@ main.scale-down {
 .title .list li:before {
 	position:absolute;
 	content:'';
-	left:50px;
+	left:2px;
 	width:10px;
 	top:50%;
 	margin-top:-1px;
@@ -1358,7 +1358,7 @@ svg * {
 	text-align:center;
 }
 #owl-logos .item img{
-	width:70px;
+	width:90px;
 	display:block;
 	margin:0 auto;
 	text-align:center;
@@ -1393,18 +1393,22 @@ svg * {
 }
 
 .parallax-1 {
-	background-repeat: repat;
-	background-attachment: fixed;
-	background-size: cover;
-	position: absolute;
-	top: 0; 
-	left: 0; 
-	right: 0;
-	bottom: 0;
-	z-index: 1;
-	width:100%;  
+    background-repeat: repat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    width: 100%;
+    opacity: 1;
 }
-@media only screen and (min-width: 1930px) { .parallax-1 { background-size: cover; } }
+@media only screen and (min-width: 1930px) { .parallax-1 {
+    background-size: cover;
+    opacity: 1;
+} }
  @media only screen and (min-device-width : 768px) and (max-device-width : 1200px) and (orientation : landscape) {
 	.parallax-1 { background-size: cover; background-attachment: scroll; background-position: top center!important; }
 }
@@ -1413,7 +1417,8 @@ svg * {
 }
 
 .z-index-bigger{
-	z-index:5000;
+    z-index: 5000;
+    opacity: 1;
 }
 .dark-over{
 	position:absolute;
