@@ -901,6 +901,7 @@ main.scale-down {
 .background-black{
     background-color: #020202;
     margin-left: 0px;
+    opacity: 1;
 }
 
 .home-text-freelance h1{
@@ -923,7 +924,7 @@ main.scale-down {
 	letter-spacing:0;
 	-webkit-text-fill-color: transparent;
 	background: -webkit-linear-gradient(transparent, transparent),
-             url('../images/let.jpg') repeat;
+             url('../images/let2.jpg') repeat;
 	background: -o-linear-gradient(transparent, transparent);
 	-webkit-background-clip: text;
 	background-position:center center;
@@ -931,10 +932,10 @@ main.scale-down {
 	text-shadow: 2px 8px 6px rgba(0,0,0,0.1);
 }
 .home-text-freelance h1 span.image2{
-    font-size: 95px;
-    line-height: 110px;
+    font-size: 82px;
+    line-height: 90px;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
+    font-weight: 900;
     font-style: normal;
     color: #fff;
     letter-spacing: 0;
@@ -1430,13 +1431,17 @@ svg * {
 	background-color:rgba(0,0,0,.75);
 }
 .dark-over-2{
-	position:absolute;
-	width:100%;
-	height:100%;
-	top:0;
-	left:0;
-	z-index:5;
-	background-color:rgba(0,0,0,.35);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 25;
+    background-color: rgba(0,0,0,.35);
+    -webkit-box-shadow: 0px 0px;
+    box-shadow: 0px 0px;
+    opacity: 0;
+    text-align: center;
 }
 
 
@@ -2963,12 +2968,13 @@ svg * {
 
 @media only screen and (max-width: 600px) {
 .home-text-freelance h1{
-	font-size: 14px;
-	line-height:20px;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
 }
 .home-text-freelance h1 span{
-	font-size: 30px;
-	line-height: 40px;
+	font-size: 20px;
+	line-height: 30px;
 }
 }
 
