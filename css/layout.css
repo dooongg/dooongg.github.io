@@ -837,13 +837,13 @@ main.scale-down {
 .nav-social li a.twitter:hover{
 	color:#00b6f1;
 }
-.nav-social li a.facebook:hover{
+.nav-social li a.behance:hover{
 	color:#3b5998;
 }
-.nav-social li a.google:hover{
+.nav-social li a.Instagram:hover{
 	color:#df4a32;
 }
-.nav-social li a:before{
+.nav-social li a.WeChat:before{
 	content:'';
 	position:absolute;
 	height:4px;
@@ -857,13 +857,15 @@ main.scale-down {
 .nav-social li a.twitter:before{
 	background-color:#00b6f1;
 }
-.nav-social li a.facebook:before{
+.nav-social li a.behance:before{
 	background-color:#3b5998;
 }
-.nav-social li a.google:before{
+.nav-social li a.Instagram:before{
 	background-color:#df4a32;
 }
-
+.nav-social li a.WeChat:before{
+	background-color:#1ab7ea;
+}
 /* #General style
 ================================================== */
  
@@ -932,7 +934,7 @@ main.scale-down {
 	text-shadow: 2px 8px 6px rgba(0,0,0,0.1);
 }
 .home-text-freelance h1 span.image2{
-    font-size: 82px;
+    font-size: 80px;
     line-height: 90px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 900;
@@ -2666,13 +2668,13 @@ svg * {
 ================================================== */
 
 .footer p{
-	text-align:left;
-	font-family: 'Lato', sans-serif;
-	font-weight:700;
-	font-size: 17px;
-	line-height:24px;
-	color:#dbdbdb;
-	z-index:3;
+    text-align: left;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: #dbdbdb;
+    z-index: 3;
 }
 .footer a{
 	color:#999;
@@ -2734,13 +2736,13 @@ svg * {
 .footer-social li a.twitter:hover{
 	color:#00b6f1;
 }
-.footer-social li a.facebook:hover{
+.footer-social li a.behance:hover{
 	color:#3b5998;
 }
-.footer-social li a.google:hover{
+.footer-social li a.Instagram:hover{
 	color:#df4a32;
 }
-.footer-social li a.vimeo:hover{
+.footer-social li a.WeChat:hover{
 	color:#1ab7ea;
 }
 .footer-social li a:before{
@@ -2757,7 +2759,7 @@ svg * {
 .footer-social li a.twitter:before{
 	background-color:#00b6f1;
 }
-.footer-social li a.facebook:before{
+.footer-social li a.behance:before{
 	background-color:#3b5998;
 }
 .footer-social li a.Instagram:before{
